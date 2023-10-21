@@ -125,7 +125,7 @@ button::before{
     margin: 0 2rem;
 }
 
-/* cambio al clickar el boton */
+/* cambio al clickear el boton */
 
 .success {
     border:none;
@@ -134,7 +134,7 @@ button::before{
 }
 
 .btn:hover {
-    background: yellowgreen;
+    background: rgb(142, 182, 61);
 }
 
 /*fin de estilo al clickar boton */
@@ -165,12 +165,16 @@ button::before{
         width: 600px;
     }
 
+    article figure img{
+        display: none;
+    }
     article figure{
         background-image: url("./img/image-product-desktop.jpg");
         background-size: cover;
         background-position: flex;
         height: 450px;
         width: 50%;
+        border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
         margin-top: 0;
